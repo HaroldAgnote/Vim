@@ -41,6 +41,7 @@ Plugin 'raimondi/delimitmate'
 " adding syntastic (syntax checker)
 " :help syntastic
 Plugin 'scrooloose/syntastic'
+let g:syntastic_tex_checkers=['chktex']
 
 " You complete me = autocompleter
 Plugin 'Valloric/YouCompleteMe'

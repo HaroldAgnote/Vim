@@ -70,8 +70,6 @@ syntax enable
 set background=dark
 colorscheme peaksea
 
-" Font stuff
-
 " Smart way to move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
@@ -93,13 +91,11 @@ nnoremap <S-Up> <c-w>+
 nnoremap <S-Down> <c-w>-
 nnoremap <S-Left> <c-w><
 nnoremap <S-Right> <c-w>>
+
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <c-space> ?
 
-" Easier stuff to put to next line
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
 
 " Split stuff
 set splitright
