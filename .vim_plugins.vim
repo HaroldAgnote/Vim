@@ -42,12 +42,14 @@ Plugin 'raimondi/delimitmate'
 " :help syntastic
 Plugin 'scrooloose/syntastic'
 let g:syntastic_tex_checkers=['chktex']
+let g:syntastic_rust_checkers=['cargo']
 
 " You complete me = autocompleter
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_filepath_completion_use_working_dir=1
 
 " Recommended settings
 set statusline+=%#warningmsg#
